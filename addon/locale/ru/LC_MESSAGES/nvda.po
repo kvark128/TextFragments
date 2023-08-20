@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: textFragments\n"
-"POT-Creation-Date: 2021-06-28 18:10+0800\n"
-"PO-Revision-Date: 2021-06-28 18:32+0800\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2023-08-21 02:18+0800\n"
+"PO-Revision-Date: 2023-08-21 02:21+0800\n"
 "Last-Translator: Kvark <kvark128@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -15,79 +16,94 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\\..\\textFragments\n"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:11
+#: addon\globalPlugins\textFragments.py:17
 msgid "Text fragments"
 msgstr "Text fragments"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:22
+#: addon\globalPlugins\textFragments.py:28
 msgid "not supported"
 msgstr "не поддерживается"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:40
+#: addon\globalPlugins\textFragments.py:46
 msgid "Reports the current word. Twice pressing selects it"
 msgstr "Сообщает текущее слово. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:44
+#: addon\globalPlugins\textFragments.py:50
 msgid ""
 "Reports text from the caret to the start of the word. Twice pressing selects "
 "it"
 msgstr ""
 "Сообщает текст от каретки до начала слова. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:48
+#: addon\globalPlugins\textFragments.py:54
 msgid ""
 "Reports text from the caret to the end of the word. Twice pressing selects it"
 msgstr "Сообщает текст от каретки до конца слова. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:52
+#: addon\globalPlugins\textFragments.py:58
 msgid "Reports the current line. Twice pressing selects it"
 msgstr "Сообщает текущую строку. Двойное нажатие выделяет её"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:56
+#: addon\globalPlugins\textFragments.py:62
 msgid ""
 "Reports text from the caret to the start of the line. Twice pressing selects "
 "it"
 msgstr ""
 "Сообщает текст от каретки до начала строки. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:60
+#: addon\globalPlugins\textFragments.py:66
 msgid ""
 "Reports text from the caret to the end of the line. Twice pressing selects it"
 msgstr ""
 "Сообщает текст от каретки до конца строки. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:64
+#: addon\globalPlugins\textFragments.py:70
 msgid "Reports the current sentence. Twice pressing selects it"
 msgstr "Сообщает текущее предложение. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:68
+#: addon\globalPlugins\textFragments.py:74
 msgid ""
 "Reports text from the caret to the start of the sentence. Twice pressing "
 "selects it"
 msgstr ""
 "Сообщает текст от каретки до начала предложения. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:72
+#: addon\globalPlugins\textFragments.py:78
 msgid ""
 "Reports text from the caret to the end of the sentence. Twice pressing "
 "selects it"
 msgstr ""
 "Сообщает текст от каретки до конца предложения. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:76
+#: addon\globalPlugins\textFragments.py:82
 msgid "Reports the current paragraph. Twice pressing selects it"
 msgstr "Сообщает текущий абзац. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:80
+#: addon\globalPlugins\textFragments.py:86
 msgid ""
 "Reports text from the caret to the start of the paragraph. Twice pressing "
 "selects it"
 msgstr ""
 "Сообщает текст от каретки до начала абзаца. Двойное нажатие выделяет его"
 
-#: ..\..\..\..\textFragments/globalPlugins/textFragments.py:84
+#: addon\globalPlugins\textFragments.py:90
 msgid ""
 "Reports text from the caret to the end of the paragraph. Twice pressing "
 "selects it"
 msgstr ""
 "Сообщает текст от каретки до конца абзаца. Двойное нажатие выделяет его"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Text Fragments"
+msgstr "Text Fragments"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"Provides a set of commands for reading and selecting various text fragments"
+msgstr ""
+"Предоставляет набор команд для чтения и выделения различных фрагментов текста"
